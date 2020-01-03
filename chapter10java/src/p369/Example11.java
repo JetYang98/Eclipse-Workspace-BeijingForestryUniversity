@@ -12,6 +12,8 @@ public class Example11 {
 	}
 
 }
+
+
 class TicketWindow implements Runnable{
 	private int tickets = 10;
 	Object lock = new Object();

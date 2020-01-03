@@ -12,6 +12,8 @@ public class Example12 {
 	}
 
 }
+
+
 class TicketWindow implements Runnable{
 	private int tickets = 10;
 	public void run() {

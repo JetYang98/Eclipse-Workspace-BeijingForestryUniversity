@@ -19,22 +19,22 @@ public class KTVByLinkedList {
 			Scanner scan = new Scanner(System.in);
 			int command = scan.nextInt();
 			switch(command) {
-			case 0:
-				addMusic(lineUpList);
-				break;
-			case 1:
-				setTop(lineUpList);
-				break;
-			case 2:
-				setBefore(lineUpList);
-				break;
-			case 3:
-				exit();
-				break;
-			default:
-				System.out.println("----------------");
-				System.out.println("功能选择有误，请输入正确的功能序号");
-				break;
+				case 0:
+					addMusic(lineUpList);
+					break;
+				case 1:
+					setTop(lineUpList);
+					break;
+				case 2:
+					setBefore(lineUpList);
+					break;
+				case 3:
+					exit();
+					break;
+				default:
+					System.out.println("----------------");
+					System.out.println("功能选择有误，请输入正确的功能序号");
+					break;
 			}
 			System.out.println("当前歌曲列表：" + lineUpList);
 		}

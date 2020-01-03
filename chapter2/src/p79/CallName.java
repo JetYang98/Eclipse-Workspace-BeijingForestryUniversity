@@ -16,6 +16,7 @@ public class CallName {
 			//接收控制台录入的姓名字符串
 			students[i] = sc.next();
 		}
+		sc.close();
 	}
 	
 	/***

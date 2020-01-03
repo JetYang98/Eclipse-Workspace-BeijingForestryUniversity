@@ -1,6 +1,7 @@
 package p75;
 
 public class Example31 {
+	
 	public static void main(String[] args) {
 		int[] arr = {9, 8, 3, 5, 2};
 		System.out.print("冒泡排序前：");
@@ -9,6 +10,7 @@ public class Example31 {
 		System.out.print("冒泡排序后：");
 		printArray(arr);
 	}
+	
 	//定义打印数组元素的方法
 	public static void printArray(int[] arr) {
 		//循环遍历数组的元素
@@ -17,6 +19,7 @@ public class Example31 {
 		}
 		System.out.print("\n");
 	}
+	
 	//定义对数组排序的方法
 	public static void bubbleSort(int[] arr) {
 		//定义外层循环
@@ -33,4 +36,5 @@ public class Example31 {
 			printArray(arr);
 		}
 	}
+	
 }

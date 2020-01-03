@@ -17,7 +17,7 @@ public class Example11 {
 		System.out.println(file.isAbsolute() ? "是绝对路径" : "不是绝对路径");
 		System.out.println("最后修改时间为：" + file.lastModified());
 		System.out.println("文件大小为：" + file.length() + " bytes");
-		System.out.println("是否成功删除文件" + file.delete());
+		System.out.println("是否成功删除文件: " + file.delete());
 	}
 
 }

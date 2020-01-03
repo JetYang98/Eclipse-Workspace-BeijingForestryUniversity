@@ -13,6 +13,8 @@ public class Example06 {
 	}
 
 }
+
+
 class Task implements Runnable{
 
 	@Override

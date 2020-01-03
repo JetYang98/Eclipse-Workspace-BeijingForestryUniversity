@@ -8,17 +8,17 @@ public class Example04 {
 		InputStream in = null;
 		OutputStream out = null;
 		try {
-			in = new FileInputStream("C:\\Users\\yrc\\Pictures\\云字夕頭\\hello-world.png");
-			out = new FileOutputStream("C:\\Users\\yrc\\Desktop\\hello.png");
+			in = new FileInputStream("example.txt");
+			out = new FileOutputStream("des");
 		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("error");
 		}
-		int len;
+		int data;
 		long begintime = System.currentTimeMillis();
 		try {
-			while((len = in.read()) != -1) {
-				out.write(len);
+			while((data = in.read()) != -1) {
+				out.write(data);
 			}
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block

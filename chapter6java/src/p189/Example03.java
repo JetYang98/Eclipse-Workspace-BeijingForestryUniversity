@@ -8,7 +8,7 @@ public class Example03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<String> list = new ArrayList<String>();
+		ArrayList<String> list = new ArrayList<>();
 		list.add("data_1");
 		list.add("data_2");
 		list.add("data_3");

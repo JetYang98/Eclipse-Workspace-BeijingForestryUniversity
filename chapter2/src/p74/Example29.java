@@ -1,6 +1,7 @@
 package p74;
 
 public class Example29 {
+	
 	public static void main(String[] args) {
 		int[] arr = {1, 2, 3, 4, 5};
 		//使用for循环遍历数组的元素
@@ -8,4 +9,5 @@ public class Example29 {
 			System.out.println(arr[i]);
 		}
 	}
+	
 }

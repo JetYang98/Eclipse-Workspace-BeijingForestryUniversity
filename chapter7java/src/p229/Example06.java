@@ -9,10 +9,10 @@ public class Example06 {
 		BufferedOutputStream bos = null;
 		try {
 			bis = new BufferedInputStream(new FileInputStream("example.txt"));
-			bos = new BufferedOutputStream(new FileOutputStream("des.txt"));
-			int len;
-			while ((len = bis.read()) != -1) {
-				bos.write(len);
+			bos = new BufferedOutputStream(new FileOutputStream("des"));
+			int data;
+			while ((data = bis.read()) != -1) {
+				bos.write(data);
 			} 
 		} catch (Exception e) {
 			// TODO: handle exception

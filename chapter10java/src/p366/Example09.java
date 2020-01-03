@@ -21,6 +21,8 @@ public class Example09 {
 	}
 
 }
+
+
 class EmergencyThread implements Runnable{
 	public void run() {
 		for(int i = 1; i < 6; i++) {

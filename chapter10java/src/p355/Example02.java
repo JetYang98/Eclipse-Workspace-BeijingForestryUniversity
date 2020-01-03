@@ -6,7 +6,7 @@ public class Example02 {
 		// TODO Auto-generated method stub
 		MyThread myThread = new MyThread();
 		myThread.start();
-		while(true) {
+		while (true) {
 			System.out.println("main()方法在运行");
 		}
 	}

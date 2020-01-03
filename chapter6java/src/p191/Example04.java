@@ -6,7 +6,7 @@ public class Example04 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<String> list = new ArrayList<String>();
+		ArrayList<String> list = new ArrayList<>();
 		list.add("Jack");
 		list.add("Rost");
 		list.add("Tom");

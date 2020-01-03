@@ -21,6 +21,8 @@ public class Example07 {
 	}
 
 }
+
+
 class Task implements Runnable{
 	public void run() {
 		for(int i = 1; i <= 10; i++) {
